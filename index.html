@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code verification</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script src="https://kit.fontawesome.com/1742523b0c.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-pink-200 h-screen">
+    <div class="flex justify-center items-center h-screen">
+        <div class=" bg-white p-10 shadow-lg shadow-pink-500 rounded-xl flex flex-col justify-center items-center space-y-5">
+            <div class="w-16">
+                <img src="asset/tea-cup.png" alt="">
+            </div>
+            <h2 class="text-xl font-bold">
+                Enter verification code
+            </h2>
+            <p class="text-gray-400">We have sent you a code on <span class="text-black font-semibold"> your@email.com</span></p>
+            <div class="flex gap-8">
+                <input id="input1" class="border-2 w-12 p-3 " type="text">
+                <input id="input2" class="border-2 w-12 p-3 " type="text">
+                <input  id="input3" class="border-2 w-12 p-3 " type="text">
+                <input id="input4" class="border-2 w-12 p-3 " type="text">
+            </div>
+            <p class="text-gray-400">don't get a code? <a href ="index.html" class="underline text-black font-semibold">click to resent</a></p>
+            <div class="divider"></div>
+            <div class=" flex gap-10">
+                <button class="btn btn-outline">Cancel</button>
+                <button id="verify-btn" class="btn btn-active btn-secondary">Verify</button>
+            </div>
+            
+      
+        </div>
+
+    </div>
+
+    <script src="js/demo.js"></script>
+</body>
+</html>
